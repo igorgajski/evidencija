@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\database",
+    "\\database\\migrations",
+    "\\database\\seeds"
+  ],
+  "SelectedNode": "\\database\\seeds\\User_deviceSeeder.php",
+  "PreviewInSolutionExplorer": false
+}
