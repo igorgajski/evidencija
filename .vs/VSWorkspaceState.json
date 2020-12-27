@@ -1,10 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\database",
-    "\\database\\migrations",
-    "\\database\\seeds"
+    "\\resources",
+    "\\resources\\views",
+    "\\resources\\views\\countries",
+    "\\resources\\views\\departments",
+    "\\resources\\views\\devices",
+    "\\resources\\views\\device_types",
+    "\\resources\\views\\layouts",
+    "\\resources\\views\\users",
+    "\\routes"
   ],
-  "SelectedNode": "\\database\\seeds\\User_deviceSeeder.php",
+  "SelectedNode": "\\resources\\views\\layouts\\app.blade.php",
   "PreviewInSolutionExplorer": false
 }
