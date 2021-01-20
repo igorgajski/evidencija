@@ -14,4 +14,6 @@ class Country extends Model
         'name',
         'native_name'
         ];
+
+    public function users() { return $this->hasMany(User::class); }
 }

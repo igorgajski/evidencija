@@ -2,11 +2,15 @@
 
 @section('content')
 
-<table class="table table-striped">
+<a href="{{ route('manufacturers.create') }}" class="btn btn-primary mt-5">Add</a>
+
+
+<table class="table table-striped mt-3">
     <thead>
         <tr>
             <th scope="col">Id</th>
             <th scope="col">Manufacturers name</th>
+            <th scope="col">Action</th>
             
         </tr>
     </thead>
@@ -15,6 +19,10 @@
         <tr>
             <td>{{ $manufacturer->id}}</td>
             <td>{{ $manufacturer->name}}</td>
+            <td>
+                <a class="btn btn-outline-secondary" href="{{ route('manufacturers.show', ['manufacturer'=> $manufacturer->id])}}"> Details</a>
+                <a class="btn btn-outline-secondary" href="{{ route('manufacturers.edit', ['manufacturer'=> $manufacturer->id])}}"> Edit</a>
+            </td>
             
         </tr>
         @foreach

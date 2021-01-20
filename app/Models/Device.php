@@ -16,4 +16,11 @@ class Device extends Model
         
         ];
 
+
+    public function users_devices() { return $this->hasMany(User_device::class); }
+
+
+    public function manufacturer() { return $this->belongsTo(Manufacturer::class); }
+    public function device_type() { return $this->belongsTo(Device_type::class); }
+
 }

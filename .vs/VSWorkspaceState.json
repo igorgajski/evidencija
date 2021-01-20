@@ -3,14 +3,14 @@
     "",
     "\\resources",
     "\\resources\\views",
-    "\\resources\\views\\countries",
-    "\\resources\\views\\departments",
-    "\\resources\\views\\devices",
     "\\resources\\views\\device_types",
     "\\resources\\views\\layouts",
+    "\\resources\\views\\manufacturers",
+    "\\resources\\views\\roles",
     "\\resources\\views\\users",
+    "\\resources\\views\\user_devices",
     "\\routes"
   ],
-  "SelectedNode": "\\resources\\views\\layouts\\app.blade.php",
+  "SelectedNode": "\\resources\\views\\users\\index.blade.php",
   "PreviewInSolutionExplorer": false
 }

@@ -18,4 +18,12 @@ class User extends Model
         
         
         ];
+
+        public function role() { return $this->belongsTo(Role::class); }
+        public function country() { return $this->belongsTo(Country::class); }
+        public function department() { return $this->belongsTo(Department::class); }
+
+
+
+        public function users_devices() { return $this->hasMany(User_device::class); }
 }

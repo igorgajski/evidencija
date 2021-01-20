@@ -17,4 +17,7 @@ class User_device extends Model
         
         
         ];
+
+    public function user() { return $this->belongsTo(User::class); }
+    public function device() { return $this->belongsTo(Device::class); }
 }

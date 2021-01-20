@@ -4,7 +4,7 @@
 
 <a href="{{ route('roles.create') }}" class="btn btn-primary mt-5">Add</a>
 
-<table class="table table-striped">
+<table class="table table-striped mt-3">
     <thead>
         <tr>
             <th scope="col">Id</th>
