@@ -28,6 +28,7 @@
             <td>
                 <a class="btn btn-outline-secondary" href="{{ route('users.show', ['user'=> $user->id])}}"> Details</a>
                 <a class="btn btn-outline-secondary" href="{{ route('users.edit', ['user'=> $user->id])}}"> Edit</a>
+
             </td>
             
         </tr>
